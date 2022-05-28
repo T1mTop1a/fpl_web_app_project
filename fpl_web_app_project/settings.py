@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fpl_help',
+    'fpl_api_access',
 ]
 
 MIDDLEWARE = [
