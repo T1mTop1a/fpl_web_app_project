@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'fpl_help',
+    'fplhelp',
     'fpl_api_access',
 ]
 
