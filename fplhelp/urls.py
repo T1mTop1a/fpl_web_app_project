@@ -1,9 +1,10 @@
 from django.urls import path
-from rango import views
+from fplhelp import views
 
 
 app_name = 'fplhelp'
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('fdr/', views.fdr, name='fdr')
 ]

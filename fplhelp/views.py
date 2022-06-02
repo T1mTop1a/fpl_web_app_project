@@ -3,4 +3,10 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("YAY Home Page!")
+    response = render(request, 'fplhelp/index.html')
+    return response
+
+
+def fdr(request):
+    response = render(request, 'fplhelp/fdr.html')
+    return response
